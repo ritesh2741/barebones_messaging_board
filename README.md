@@ -3,7 +3,7 @@
 
 ##### Ruby Version : 2.4.0p0
 ##### Rails Version : 4.2.8
-##### Database : sqlite3
+##### Database : sqlite3 / pg
 
 ## Setup Instructions
   `git clone git@github.com:ritesh2741/barebones_messaging_board.git`
