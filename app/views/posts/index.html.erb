@@ -1,5 +1,5 @@
-
-
+<button type="button" class="btn btn-default"><%= link_to "Create New Post",new_post_path%></button>
+</div>
 <% @posts.each do |post| %>
   <div class="post_wrapper">
     <h2 class="title"><%= link_to post.title, post %> 
