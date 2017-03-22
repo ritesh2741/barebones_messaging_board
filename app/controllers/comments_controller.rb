@@ -2,7 +2,6 @@ class CommentsController < ApplicationController
 
   def create
     @post = Post.find(params[:post_id])
-    binding.pry
     @comment = @post.comments.create(params[:comment].permit(:name, :body).merge(user_id: current_user.id))
 
     redirect_to post_path(@post)
