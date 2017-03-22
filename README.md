@@ -7,6 +7,7 @@
 
 ## Setup Instructions
   `git clone git@github.com:ritesh2741/barebones_messaging_board.git`
+  
   `cd barebones_messaging_board`
 
 ## Install Required Gems
@@ -14,6 +15,7 @@
 
 ## Create and migrate databse
   `rake db:create`
+  
   `rake db:migrate`
 ## Starting Rails Server
    `rails s`
