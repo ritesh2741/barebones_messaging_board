@@ -3,7 +3,7 @@
 
 ##### Ruby Version : 2.4.0p0
 ##### Rails Version : 4.2.8
-##### Database : sqlite3 / pg
+##### Database : sqlite3 / postgresql
 
 ## Setup Instructions
   `git clone git@github.com:ritesh2741/barebones_messaging_board.git`
@@ -13,7 +13,7 @@
 ## Install Required Gems
   `bundle install`
 
-## Create and migrate databse
+## Create and migrate database
   `rake db:create`
   
   `rake db:migrate`
